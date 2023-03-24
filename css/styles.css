@@ -176,6 +176,10 @@ p{
 
 .social-icon:hover{
     color: #ff4c68;
+    cursor: pointer;
+}
+.social-link{
+    color: black;
 }
 
 @media (max-width: 991.99px){
