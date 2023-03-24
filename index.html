@@ -60,14 +60,14 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#footer">Contact</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#pricing">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Download</a>
+                <a class="nav-link" href="#cta">Download</a>
               </li>
             </ul>
           </div>
@@ -75,19 +75,19 @@
 
         <!-- Title -->
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 headline">
             <h1>Meet new and interesting dogs nearby.</h1>
             <button class="btn btn-lg btn-dark download-btn" type="button">
               <i class="fa-brands fa-apple"></i> Download
             </button>
             <button
-              class="btn btn-lg btn-outline-light download-btn"
+              class="btn btn-lg btn-light download-btn"
               type="button"
             >
               <i class="fa-brands fa-google-play"></i> Download
             </button>
           </div>
-          <div class="col-md-6">
+          <div class="col-lg-6 title-img-div">
             <img
               class="title-img"
               src="images/iphone6.png"
@@ -125,7 +125,7 @@
     <!-- Testimonials -->
 
     <section id="testimonials">
-      <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-keyboard="true">
         <div class="carousel-indicators">
           <button
             type="button"
@@ -244,29 +244,34 @@
                   <button class="w-100 btn btn-lg btn-block btn-dark" type="button">Sign Up</button></div>
             </div>
         </div>
-    </div>
-
-      
-
-      
-      
-
-      
-      
+    </div>    
     </section>
 
     <!-- Call to Action -->
 
     <section id="cta">
-      <h3>Find the True Love of Your Dog's Life Today.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+      <h3 class="cta-heading">Find the True Love of Your Dog's Life Today.</h3>
+      <button class="btn btn-lg btn-dark cta-download-btn" type="button">
+        <i class="fa-brands fa-apple"></i> Download
+      </button>
+      <button
+        class="btn btn-lg btn-light cta-download-btn"
+        type="button"
+      >
+        <i class="fa-brands fa-google-play"></i> Download
+      </button>
     </section>
 
     <!-- Footer -->
 
     <footer id="footer">
-      <p>© Copyright TinDog</p>
+      <i class="fa-brands fa-twitter social-icon"></i>
+      <i class="fa-brands fa-facebook-f social-icon"></i>
+      <i class="fa-brands fa-instagram social-icon"></i>
+      <i class="fa-solid fa-envelope social-icon"></i>
+      <p>© Copyright 2023 TinDog</p>
     </footer>
+
+
   </body>
 </html>
