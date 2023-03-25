@@ -190,6 +190,7 @@ background-color: #fff;
 .title-img{
     position: static;
     transform: rotate(0);
+    padding-top: 15%;
 }
 
 }
